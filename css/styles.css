@@ -1,0 +1,94 @@
+/* GLOBAL STYLES */
+body {
+  font-family: "Poppins";
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+h1 {
+  font-size: 55px;
+  line-height: 60px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+p {
+  font-size: 20px;
+  line-height: 22px;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-azzinet {
+  height: 60px;
+}
+
+.header {
+  
+  height: 100vh;
+  /* background-image: url("../assets/img/big-hero.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: ;
+    z-index: -1;
+}
+.navbar{
+    padding: 30px 0;
+}
+
+.nav-item {
+  margin-right: 32px;
+}
+.nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  color: #fff;
+}
+.bg-dark {
+  background-color: rgb(33 37 41 / 0%) !important;
+}
+
+/* HERO */
+.hero-info {
+  height: calc(90vh - 180px);
+}
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 21px;
+  padding: 14px 40px;
+  border: 1px solid rgb(173, 233, 77);
+  color: rgb(173, 233, 77);
+  margin: 0 auto;
+  font-style: italic;
+  border-radius: 10px;
+  
+}
+.hero-btn:hover{
+color: #fff;
+
+
+}
+
+.icons{
+    margin-left: 5px;
+
+}
